@@ -21,7 +21,7 @@ class Stack : public LinkedList<T>{
 			//LikedList에서 그대로 가져옴
 			element = current -> data;
 			delete current;
-			this -> current_size--;
+			this -> current_size-=1;
 			return true;
 			}
 };
