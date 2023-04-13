@@ -48,7 +48,8 @@ int main(){
 					break;
 					
 				case 4:
-					flag = true;     break;
+					flag = true;    
+					break;
 					
 				default:
 					cout<<"잘못 입력하셨습니다."<<endl;
