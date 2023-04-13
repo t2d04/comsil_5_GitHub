@@ -23,5 +23,6 @@ class Stack : public LinkedList<T>{
 			delete current;
 			this -> current_size-=1;
 			return true;
+
 			}
 };
